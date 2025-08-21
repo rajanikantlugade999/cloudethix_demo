@@ -13,3 +13,12 @@ docker images – List available images.
 docker run -it <image> – Start interactive container.
 docker ps / docker ps -a – List running/all containers.
 docker stop <container_id> – Stop a container 1.
+
+
+kubectl get nodes
+kubectl get pods
+kubectl describe pod <pod-name>
+kubectl logs <pod-name>
+kubectl exec -it <pod-name> -- /bin/bash
+kubectl apply -f <file.yaml>
+kubectl delete pod <pod-name
