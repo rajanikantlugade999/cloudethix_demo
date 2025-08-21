@@ -5,3 +5,11 @@ git config --global user.email "your_email@example.com"
 git init
 git add filename.extension
 git commit -am "Initial Commit
+
+docker version – Check installed Docker version.
+docker search <image> – Search Docker Hub.
+docker pull <image> – Download image.
+docker images – List available images.
+docker run -it <image> – Start interactive container.
+docker ps / docker ps -a – List running/all containers.
+docker stop <container_id> – Stop a container 1.
